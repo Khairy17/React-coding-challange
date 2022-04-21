@@ -1,0 +1,22 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    grid-gap: 20px;
+    align-items: start;
+}
+@media screen and (max-width: 800px) {
+    .gridContainer{
+        grid-template-columns: 250px 250px;
+    }
+}
+@media (orientation: landscape) and (max-height:450px)and (max-width:977px){
+    .gridContainer{
+        grid-template-columns: 250px 250px 250px;
+    }
+}
+@media (orientation: portrait){
+    .gridContainer{
+        grid-template-columns: 250px 250px;
+    }
+}
+

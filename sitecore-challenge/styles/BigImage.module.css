@@ -1,0 +1,17 @@
+.overlay {
+        position: fixed;
+        top: 0;
+        background: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height: 100vh;
+        background-attachment: scroll;
+}
+.popup {
+        display: flex;
+        justify-content: center;
+        max-width: 75%;
+}
+.img {
+        margin-top: 10px;
+        max-width: 75%;
+}
